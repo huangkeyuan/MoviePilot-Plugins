@@ -274,9 +274,9 @@ class BrushFlow(_PluginBase):
     # 订阅缓存信息
     _subscribe_infos = None
     # Brush定时
-    _brush_interval = 10
+    _brush_interval = 3
     # Check定时
-    _check_interval = 5
+    _check_interval = 1
     # 退出事件
     _event = threading.Event()
     _scheduler = None
